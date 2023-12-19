@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<style>
+    .container {
+ display: grid;
+ align-items: left; 
+ grid-template-columns: 1fr 2fr 1fr;
+ column-gap: 5px;
+}
+
+img {
+  max-width: 390;
+  max-height:400;
+}
+
+.text {
+  font-size: 24px;
+}
+</style>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hakan Güler</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded",function()
+      {
+        renderMathInElement(document.body,{
+          delimiters:[
+            {left:'$',right:'$',display: false}
+          ]
+        });      
+      });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+          <img src="hguler.jpg"
+          width="390"
+          height="400">
+        </div>
+        <div class="text">
+          <h1>Hakan Güler</h1>
+          <p><b>email:</b> hguler[at]kastamonu.edu.tr / hakanguler19[at]gmail.com</p>
+          <p>I am a faculy member in the Deparment of Mathematics at Kastamonu University.</p>
+          <p><b>My research interests:</b></p>
+          <ul>
+            <li>Combinatorial Rigidity</li>
+            <li>Discrete Geometry</li>
+            <li>Graph Theory</li>
+            <li>Matroid Theory</li>
+          </ul>
+        </div>
+    </div>
+    <div class="text">
+      <p><b>Publications:</b></p>
+      <ol>
+        <li>Helly number, domination and homology. (submitted) with: <a href="https://www.turkerbiyikoglu.net" target="_blank">T. Bıyıkoğlu</a>,
+           <a href="https://sites.google.com/site/ysfcvn/home" target="_blank"> Y. Civan</a> and 
+           <a href="">M. Demir</a></li>
+        <li>A sufficient connectivity condition for rigidity and global rigidity of linearly constrained frameworks in $\mathbb{R}^2$.
+          <br><i>Discrete Applied Mathematics, </i> 2023; 326: 37-46.
+        </li>
+        <li>A necessary condition for generic rigidity of bar‐and‐joint frameworks in $d$‐space. with: <a href="https://webspace.maths.qmul.ac.uk/b.jackson/" target="_blank">B. Jackson</a>,
+          <br><i>Journal of Graph Theory,</i> 2022; 99: 231–239.
+        </li>
+        <li>Coincident Rigidity of 2-Dimensional Frameworks. with: <a href="https://webspace.maths.qmul.ac.uk/b.jackson/" target="_blank">B. Jackson</a>,
+          <br><i>Graphs and Combinatorics, </i> 2022; 128.
+        </li>
+        <li>Flexible circuits in the d‐dimensional rigidity matroid. with: 
+          <a href="https://www.oeaw.ac.at/ricam/staff/georg-grasegger" target="_blank">G. Grasegger</a>, 
+          <a href="https://webspace.maths.qmul.ac.uk/b.jackson/" target="_blank">B. Jackson</a> and 
+          <a href="https://www.lancaster.ac.uk/maths/people/anthony-nixon" target="_blank">A. Nixon</a>,
+          <br><i>Journal of Graph Theory, </i> 2022; 100: 315-330.
+        </li>
+        <li>Global Rigidity of $2D$ Linearly Constrained Frameworks. with: 
+          <a href="https://webspace.maths.qmul.ac.uk/b.jackson/" target="_blank">B. Jackson</a> and 
+          <a href="https://www.lancaster.ac.uk/maths/people/anthony-nixon" target="_blank">A. Nixon</a>,
+          <br><i>International Mathematics Research Notices, </i> 2021; 22: 16811–16858.
+        </li>
+        <li>Rigidity of Linearly Constrained Frameworks. with: 
+          <a href="https://www.jamescruickshank.ie/home" target="_blank">J. Cruickshank</a>, 
+          <a href="https://webspace.maths.qmul.ac.uk/b.jackson/" target="_blank">B. Jackson</a> and 
+          <a href="https://www.lancaster.ac.uk/maths/people/anthony-nixon" target="_blank">A. Nixon</a>,
+          <br><i>International Mathematics Research Notices, </i> 2020; 12: 3824–3840.
+        </li>
+      </ol>
+    </div>
+</body>
+</html>
